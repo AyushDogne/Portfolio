@@ -1,0 +1,44 @@
+{
+  "name": "portfolio-react",
+  "version": "1.0.0",
+  "description": "Aayush Dogne Portfolio - React Version",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "glightbox": "^3.2.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "swiper": "^11.0.5",
+    "typed.js": "^2.1.0",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
