@@ -225,7 +225,7 @@ const theridparty = [
 
         <section id="cloud-services" className="services section" style={{ background: '#f8f9fa' }}>
       <div className="container section-title" data-aos="fade-up">
-        <h2 style={{ fontSize: '2.5rem', fontWeight: 700, marginBottom: '15px' }}>External  API Consumption & Data Handling</h2>
+        <h2 style={{ fontSize: '2.5rem', fontWeight: 700, marginBottom: '15px' }}>Third-Party APIs & Services</h2>
         <div 
           style={{
             width: '80px',

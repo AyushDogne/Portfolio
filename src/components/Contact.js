@@ -65,8 +65,8 @@ const Contact = () => {
               <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i className="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
-                  <p>+1 7489 0480 15</p>
+                  <h3>Call Me</h3>
+                  <p>7489 0480 15</p>
                 </div>
               </div>
 

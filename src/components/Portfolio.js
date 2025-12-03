@@ -6,7 +6,7 @@ const Portfolio = () => {
       id: 1,
       title: 'Togl.ai',
       description: 'Chrome Extension - One click to log in, pay, and manage your digital life',
-      tech: ['Chrome Extension', 'JavaScript', 'React'],
+      // tech: ['Chrome Extension', 'JavaScript', 'React'],
       link: 'https://www.togl.ai/',
       icon: 'bi-browser-chrome',
       color: '#4285F4'
@@ -15,7 +15,7 @@ const Portfolio = () => {
       id: 2,
       title: 'Logi360',
       description: 'Business Management System - Comprehensive logistics and business operations platform',
-      tech: ['React', 'Node.js', 'MongoDB'],
+      // tech: ['React', 'Node.js', 'MongoDB'],
       link: 'https://logi360.in/',
       icon: 'bi-truck',
       color: '#667eea'
@@ -24,7 +24,7 @@ const Portfolio = () => {
       id: 3,
       title: 'Brick-Data',
       description: 'Automated Energy Management - Smart energy monitoring and optimization system',
-      tech: ['React', 'Node.js', 'IoT'],
+      // tech: ['React', 'Node.js', 'IoT'],
       link: 'https://brick-data.com/en-US',
       icon: 'bi-lightning-charge',
       color: '#764ba2'
@@ -33,7 +33,7 @@ const Portfolio = () => {
       id: 4,
       title: 'Glow-Mart',
       description: 'E-Commerce Platform - Full-featured online shopping platform',
-      tech: ['React', 'Node.js', 'MongoDB'],
+      // tech: ['React', 'Node.js', 'MongoDB'],
       link: 'https://myproject-ten-rosy.vercel.app/',
       icon: 'bi-cart-check',
       color: '#f093fb'
@@ -42,7 +42,7 @@ const Portfolio = () => {
       id: 5,
       title: 'Astropush',
       description: 'Astrology Platform - Online platform providing astrology services and information',
-      tech: ['React', 'Node.js', 'Express'],
+      // tech: ['React', 'Node.js', 'Express'],
       link: 'https://astropush.com/',
       icon: 'bi-stars',
       color: '#4facfe'
@@ -130,7 +130,7 @@ const Portfolio = () => {
                   {item.description}
                 </p>
 
-                <div style={{ marginBottom: '20px' }}>
+                {/* <div style={{ marginBottom: '20px' }}>
                   {item.tech.map((tech, techIdx) => (
                     <span
                       key={techIdx}
@@ -148,7 +148,7 @@ const Portfolio = () => {
                       {tech}
                     </span>
                   ))}
-                </div>
+                </div> */}
 
                 <a
                   href={item.link}
