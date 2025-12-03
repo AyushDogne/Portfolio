@@ -1,0 +1,22 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'aos/dist/aos.css';
+@import 'glightbox/dist/css/glightbox.min.css';
+
+/* Import main CSS */
+@import './assets/css/main.css';
+@import './assets/css/modern-animations.css';
+
+/* Ensure root and body are visible */
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Roboto', 'Poppins', 'Raleway', sans-serif;
+}
+
