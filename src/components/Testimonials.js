@@ -85,7 +85,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <section id="testimonials" className="testimonials section" style={{ background: '#fff' }}>
+      {/* <section id="testimonials" className="testimonials section" style={{ background: '#fff' }}>
         <div className="container section-title" data-aos="fade-up">
           <h2 style={{ fontSize: '2.5rem', fontWeight: 700, marginBottom: '15px' }}>Tools & Software</h2>
           <div 
@@ -199,7 +199,7 @@ const Testimonials = () => {
             ))}
           </Swiper>
         </div>
-      </section>
+      </section> */}
 
       <section className="section" style={{ background: '#f8f9fa', paddingTop: '60px' }}>
         <div className="container section-title" data-aos="fade-up">

@@ -37,10 +37,10 @@ function App() {
       <main className="main">
         <Hero />
         <About />
+        <Testimonials />
+        <Portfolio />
         <Skills />
         <Services />
-        <Portfolio />
-        <Testimonials />
         <Contact />
       </main>
 

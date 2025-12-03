@@ -57,14 +57,14 @@ const Header = ({onResumeClick }) => {
       <div style={{ margin: '20px auto', textAlign: 'center' }}>
   <div
     style={{
-      width: '130px',
-      height: '150px',
-      borderRadius: '50% / 65%',
+      width: '100px',
+      height: '130px',
+      borderRadius: '50%',
       overflow: 'hidden',
       margin: '0 auto',
       padding: '0',
       background: 'transparent',
-      border: '6px solid rgba(56, 82, 111, 1)',
+      border: '3px solid rgba(56, 82, 111, 1)',
       boxSizing: 'content-box',
       position: 'relative'
     }}
