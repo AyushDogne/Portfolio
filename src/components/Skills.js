@@ -95,7 +95,7 @@ const Skills = () => {
             borderRadius: '2px'
           }}
         ></div>
-        <p style={{ fontSize: '1.1rem', color: '#666' }}>Technologies I work with</p>
+        <p style={{ fontSize: '1.1rem', color: '#666' }}>Technologies I worked with</p>
       </div>
 
       <div className="container">
