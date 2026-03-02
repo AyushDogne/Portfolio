@@ -53,7 +53,7 @@ const Testimonials = () => {
   const experiences = [
     {
         company: 'Viionn Labs Pvt Ltd',
-        period: 'May - Present',
+        period: 'OCT 2024 - Present',
         role: 'Full Stack Web Developer',
         technologies: ['MERN Stack', 'Next.js','MySQL','PostgreSQL','AWS EC2','Amplify','Firebase'],
         tools: ['GitHub', 'Jira', 'Trello', 'Slack', 'Skype', 'VS Code', 'Postman'],
