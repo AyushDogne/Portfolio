@@ -184,7 +184,7 @@ const Header = ({onResumeClick }) => {
               <i className="bi bi-cloud navicon"></i>Services
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#contact"
               className={activeSection === 'contact' ? 'active' : ''}
@@ -192,7 +192,7 @@ const Header = ({onResumeClick }) => {
             >
               <i className="bi bi-envelope navicon"></i> Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
