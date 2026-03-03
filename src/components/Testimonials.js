@@ -61,16 +61,16 @@ const Testimonials = () => {
         link: 'https://viionn.com/',
         color: '#667eea'
     },
-    {
-      company: 'Nenosystems Consulting Services',
-      period: 'Nov 2024 - April 2025',
-      role: 'MERN Stack Developer',
-      technologies: ['MERN Stack', 'Next.js','MySQL','PostgreSQL','AWS EC2','Amplify','Firebase'],
-      tools: ['GitHub', 'Jira', 'Trello', 'Slack', 'Skype', 'VS Code', 'Postman'],
-      description: 'Leading Product Development and Custom Software Development company specializing in product automation and integrated solutions using Open Source Technologies.',
-      link: 'https://nenosystems.com/',
-      color: '#667eea'
-    },
+    // {
+    //   company: 'Nenosystems Consulting Services',
+    //   period: 'Nov 2024 - April 2025',
+    //   role: 'MERN Stack Developer',
+    //   technologies: ['MERN Stack', 'Next.js','MySQL','PostgreSQL','AWS EC2','Amplify','Firebase'],
+    //   tools: ['GitHub', 'Jira', 'Trello', 'Slack', 'Skype', 'VS Code', 'Postman'],
+    //   description: 'Leading Product Development and Custom Software Development company specializing in product automation and integrated solutions using Open Source Technologies.',
+    //   link: 'https://nenosystems.com/',
+    //   color: '#667eea'
+    // },
     {
       company: 'Uraan Softskills Pvt Ltd',
       period: 'Jan 2024 - July 2024',
