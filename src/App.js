@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
 import ScrollTop from './components/ScrollTop';
 import Preloader from './components/Preloader';
@@ -41,7 +41,7 @@ function App() {
         <Portfolio />
         <Skills />
         <Services />
-        <Contact />
+        {/* <Contact /> */}
       </main>
 
       <ScrollTop />

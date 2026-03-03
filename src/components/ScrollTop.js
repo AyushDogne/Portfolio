@@ -16,8 +16,7 @@ const ScrollTop = () => {
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
-  const scrollToTop = (e) => {
-    e.preventDefault();
+  const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -25,13 +24,14 @@ const ScrollTop = () => {
   };
 
   return (
-    <a
-      href="#"
+    <button
+      type="button"
       onClick={scrollToTop}
       className={`scroll-top d-flex align-items-center justify-content-center ${isVisible ? 'active' : ''}`}
+      aria-label="Scroll to top"
     >
       <i className="bi bi-arrow-up-short"></i>
-    </a>
+    </button>
   );
 };
 
