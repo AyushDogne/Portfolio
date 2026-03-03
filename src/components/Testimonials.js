@@ -1,55 +1,6 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 const Testimonials = () => {
-  const tools = [
-    {
-      name: 'Trello',
-      role: 'Project Management',
-      icon: 'bi-kanban',
-      color: '#0079bf',
-      description: 'Visual collaboration tool for organizing projects into boards and managing workflows efficiently.'
-    },
-    {
-      name: 'GitHub',
-      role: 'Version Control',
-      icon: 'bi-github',
-      color: '#24292e',
-      description: 'Web-based platform for version control and collaborative software development using Git.'
-    },
-    {
-      name: 'JIRA',
-      role: 'Project Management',
-      icon: 'bi-bug',
-      color: '#0052cc',
-      description: 'Project management and ticketing tool for technical teams to plan, track, and manage software products.'
-    },
-    {
-      name: 'Slack',
-      role: 'Communication',
-      icon: 'bi-chat-dots',
-      color: '#4a154b',
-      description: 'Messaging app for businesses that helps teams communicate and collaborate effectively.'
-    },
-    {
-      name: 'VS Code',
-      role: 'Code Editor',
-      icon: 'bi-code-slash',
-      color: '#007acc',
-      description: 'Free source code editor with built-in support for JavaScript, TypeScript, and Node.js.'
-    },
-    {
-      name: 'Postman',
-      role: 'API Testing',
-      icon: 'bi-send',
-      color: '#FF6C37',
-      description: 'API development and testing platform for building, testing, and documenting APIs.'
-    },
-];
-
   const experiences = [
     {
         company: 'Viionn Labs Pvt Ltd',
